@@ -1,6 +1,22 @@
 tag next
 --------------------------------
 
+tag k0.6.3
+--------------------------------
+- ffmpeg: fix crash happened in xcode8
+- player: rewrite ijkversion
+
+tag k0.6.2
+--------------------------------
+- ffmpeg: fix wild pointer when decoder was not found
+- player: fix bug introduced in k0.6.0
+
+tag k0.6.1
+--------------------------------
+- concat: fix crash introduced in k0.6.0
+- flvdec: fix seek problem introduced in k0.6.0
+- hls: fix regression with ranged media segments
+
 tag k0.6.0
 --------------------------------
 - openssl: upgrade to 1.0.2h
